@@ -1,0 +1,41 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=3206, cgraph_uid=1, symbol_order=0)
+
+int main ()
+{
+  int n;
+  int t;
+  int i;
+  int b;
+  int a;
+  int D.3217;
+
+  a = 0;
+  b = 1;
+  i = 1;
+  scanf ("%d", &n);
+  printf ("%d\n", a);
+  printf ("%d\n", b);
+  goto <D.3214>;
+  <D.3215>:
+  t = b;
+  b = a + b;
+  printf ("%d\n", b);
+  a = t;
+  i = i + 1;
+  <D.3214>:
+  n.0_1 = n;
+  if (i < n.0_1) goto <D.3215>; else goto <D.3213>;
+  <D.3213>:
+  D.3217 = 0;
+  goto <D.3219>;
+  <D.3219>:
+  n = {CLOBBER(eos)};
+  goto <D.3218>;
+  D.3217 = 0;
+  goto <D.3218>;
+  <D.3218>:
+  return D.3217;
+}
+
+
